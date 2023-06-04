@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -15,7 +16,7 @@ body{
 .box{
     position: relative;
     width: 370px;
-    width: 450px;
+    height: 450px;
     background: #1c1c1c;
     border-radius: 50px 5px;
     overflow: hidden;
@@ -27,7 +28,7 @@ body{
     left: -50%;
     width: 370px;
     height: 450px;
-    background: linear-gradient(60deg,transparent, #45f3ff,#45f3ff);
+    background: linear-gradient(60deg,transparent, #45f3ff, #45f3ff);
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
 }
@@ -38,7 +39,7 @@ body{
     left: -50%;
     width: 370px;
     height: 450px;
-    background: linear-gradient(60deg,transparent, #45f3ff,#d9138a);
+    background: linear-gradient(60deg,transparent, #d9138a , #d9138a);
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
     animation-delay: -3s;
@@ -60,4 +61,24 @@ form{
     padding: 30px 30px;
     display: flex;
     flex-direction: column;
+}
+h2{
+    color: #45f3ff;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+}
+.inputBox{
+    position: relative;
+    width: 300px;
+    margin-top: 35px;
+}
+.inputBox input{
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #23242a;
 }
